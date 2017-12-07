@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="17dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/acc_x"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/acc_y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/acc_z"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/gyr_x"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/gyr_y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/gyr_z"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotation"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/rot_x"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/rot_y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/rot_z"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/gra_x"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/gra_y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/gra_z"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magneto meter"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/meg_x"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/meg_y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/meg_z"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:descendantFocusability="blocksDescendants"
+        android:onClick="startSaving"
+        android:src="@drawable/ic_start" />
+</RelativeLayout>
